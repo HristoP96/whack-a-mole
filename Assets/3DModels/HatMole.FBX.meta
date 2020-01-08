@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: f80a2de9bc7bc0047b6cfc0af1c56f04
+timeCreated: 1578471348
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BE_Bone003
+    100002: BE_Bone007
+    100004: BE_Bone011
+    100006: BE_Bone015
+    100008: BE_Bone019
+    100010: BE_Bone023
+    100012: BE_Bone027
+    100014: Bone001
+    100016: Bone002
+    100018: Bone004
+    100020: Bone005
+    100022: Bone006
+    100024: Bone008
+    100026: Bone009
+    100028: Bone010
+    100030: Bone012
+    100032: Bone013
+    100034: Bone014
+    100036: Bone016
+    100038: Bone017
+    100040: Bone018
+    100042: Bone020
+    100044: Bone021
+    100046: Bone022
+    100048: Bone024
+    100050: Bone025
+    100052: Bone026
+    100054: //RootNode
+    100056: HatMole
+    100058: Point001
+    100060: Point002
+    100062: Point003
+    400000: BE_Bone003
+    400002: BE_Bone007
+    400004: BE_Bone011
+    400006: BE_Bone015
+    400008: BE_Bone019
+    400010: BE_Bone023
+    400012: BE_Bone027
+    400014: Bone001
+    400016: Bone002
+    400018: Bone004
+    400020: Bone005
+    400022: Bone006
+    400024: Bone008
+    400026: Bone009
+    400028: Bone010
+    400030: Bone012
+    400032: Bone013
+    400034: Bone014
+    400036: Bone016
+    400038: Bone017
+    400040: Bone018
+    400042: Bone020
+    400044: Bone021
+    400046: Bone022
+    400048: Bone024
+    400050: Bone025
+    400052: Bone026
+    400054: //RootNode
+    400056: HatMole
+    400058: Point001
+    400060: Point002
+    400062: Point003
+    2100000: DarkGray
+    2100002: LightGray
+    2100004: Black
+    2100006: Yellow
+    4300000: HatMole
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: HatMole
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
