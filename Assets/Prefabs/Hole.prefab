@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33617777087045018}
   - component: {fileID: 23161988087215192}
   - component: {fileID: 95825378165727300}
+  - component: {fileID: 114416946371167164}
   m_Layer: 0
   m_Name: Hole
   m_TagString: Untagged
@@ -100,3 +101,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114416946371167164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674032669795458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b82914824f19742a19e4b6602f52e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moles:
+  - {fileID: 1058903086835742, guid: 81ca939f68c8ef64688a225cbf121ec3, type: 2}
+  - {fileID: 1874429135887242, guid: 8e82769049da0ca4a93b3365f6cc0c5a, type: 2}
