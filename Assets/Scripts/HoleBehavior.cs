@@ -6,18 +6,30 @@ public class HoleBehavior : MonoBehaviour {
 
 
     public GameObject[] moles;
-	// Use this for initialization
-	void Start () {
-        Invoke("Spawn", Random.Range(3f, 7f));
+    public bool hasMole;
+
+    // Use this for initialization
+    void Start () {
+        if(!hasMole)
+        {
+            Invoke("Spawn", Random.Range(0f, 7f));
+
+        }
     }
 
     void Spawn()
     {
-        int num = Random.Range(0, moles.Length);
+        if (!hasMole)
+        {
+            int num = Random.Range(0, moles.Length);
 
-        GameObject mole = Instantiate(moles[num], transform.position, Quaternion.identity) as GameObject;
+            GameObject mole = Instantiate(moles[num], transform.position, Quaternion.identity) as GameObject;
 
-        Invoke("Spawn", Random.Range(3f, 7f));
+            mole.GetComponent<MoleBehavior>().myParent = gameObject;
+            hasMole = true;
+        }
+
+        Invoke("Spawn", Random.Range(0f, 7f));
 
     }
 
