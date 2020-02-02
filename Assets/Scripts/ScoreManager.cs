@@ -17,4 +17,9 @@ public class ScoreManager : MonoBehaviour {
     {
         return score;
     }
+    public static void  ResetScore()
+    {
+        score = 0;
+    }
+
 }

@@ -32,9 +32,4 @@ public class HoleBehavior : MonoBehaviour {
         Invoke("Spawn", Random.Range(0f, 7f));
 
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

@@ -28,16 +28,4 @@ public class UIManager : MonoBehaviour {
         scoreText.text = "Score: " + ScoreManager.ReadScore();
     }
 
-    public void UpdateResult(string result, Color color)
-    {
-        resultText.text = result;
-        resultText.color = color;
-    }
-
-    public void CleanCanvas()
-    {
-        scoreText.text = "";
-        timeText.text = "";
-
-    }
 }
