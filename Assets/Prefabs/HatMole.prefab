@@ -991,6 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 2
+  score: 4
   myParent: {fileID: 0}
   anim: {fileID: 0}
 --- !u!136 &136931225348741426
